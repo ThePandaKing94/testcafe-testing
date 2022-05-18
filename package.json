@@ -1,0 +1,15 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "EigthTest.test.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests/TimeToShine.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^8.10.0",
+    "testcafe": "^1.18.6"
+  }
+}
