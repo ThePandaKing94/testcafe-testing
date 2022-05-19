@@ -1,14 +1,15 @@
 {
   "name": "testcafe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test for Uni Micro",
   "main": "EigthTest.test.js",
   "scripts": {
-    "test": "testcafe chrome ./tests/TimeToShine.test.js"
+    "test": "testcafe chrome ./tests --speed 0.4"
   },
-  "author": "",
+  "author": "Eirik Andreas Gustavsen",
   "license": "ISC",
   "dependencies": {
+    "node": "^16.13.0",
     "npm": "^8.10.0",
     "testcafe": "^1.18.6"
   }
